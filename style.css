@@ -141,3 +141,18 @@ header{
   line-height: 35px;
   width: 90px;
 }
+.about{
+  background-color: #fff;
+  color: black;
+  border-radius: 30px;
+  height: 100%;
+  padding: 60px;
+  padding-top: 10px;
+  text-align: justify;
+  margin-top: 10px;
+  clear: both;
+  box-sizing: border-box;
+}
+.section h1{
+  text-align: center;
+}

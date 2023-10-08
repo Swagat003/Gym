@@ -188,12 +188,17 @@ header {
   margin: 10px;
   background-color: transparent;
 }
-
+.join-form input:hover{
+  border-color : white ;
+}
 .join-form #sub {
   background-color: rgba(128, 128, 128, 0.612);
   border: 4px solid gray;
   border-radius: 20px;
   margin: 20px;
+}
+.join-form #sub:hover {
+  background-color:rgba(128, 128, 128, 0.8) !important;
 }
 .contactUs {
   background-color: #fff;

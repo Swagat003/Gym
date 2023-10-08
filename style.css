@@ -1,14 +1,16 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-image: url("image/bg1.jpg");
-  background-size:cover;
+  background-image: url("image/bg1.jpg") ;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  font-family: 'Gabarito', cursive;
+  font-family: "Gabarito", cursive;
 }
 
-.left, .center, .right{
+.left,
+.center,
+.right {
   /* border: 2px solid red; */
   display: inline-block;
 }
@@ -31,46 +33,46 @@ body {
   right: 12px;
   top: 20px;
 }
-nav{
+nav {
   overflow: auto;
   display: inline-block;
   text-align: center;
 }
-nav ul{
+nav ul {
   padding: 0px;
 }
-nav ul li{
+nav ul li {
   list-style: none;
   display: inline-block;
 }
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   color: white;
   padding: 0px 20px;
   /* float: left; */
 }
-nav ul li a.active{
+nav ul li a.active {
   color: gray;
   /* text-decoration: underline; */
 }
-nav ul li a:hover{
+nav ul li a:hover {
   color: yellow;
 }
 
-.left img{
-  width:30px;
-  height :30px;
+.left img {
+  width: 30px;
+  height: 30px;
   filter: invert();
 }
-.left div{
+.left div {
   display: inline;
   text-align: center;
   position: relative;
   top: -15px;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
-.right input{
+.right input {
   border-radius: 20px;
   border: 2px solid gray;
   color: white;
@@ -80,15 +82,16 @@ nav ul li a:hover{
   line-height: 20px;
   padding: 6px;
 }
-.right input:focus,.right input:hover{
+.right input:focus,
+.right input:hover {
   width: 170px;
   padding-right: 20px;
 }
-header{
+header {
   position: sticky;
   top: 0px;
 }
-.container{
+.container {
   background-color: transparent;
   /* position: relative; */
   /* top: 100%; */
@@ -96,8 +99,8 @@ header{
   height: 1000px;
   box-sizing: border-box;
 }
-.screen{
-  font-family:'Anton', sans-serif;
+.screen {
+  font-family: "Anton", sans-serif;
   /* position: absolute; */
   float: left;
   top: 20px;
@@ -106,7 +109,7 @@ header{
   margin-top: 10%;
   box-sizing: border-box;
 }
-.section{
+.section {
   background-color: #fff;
   color: black;
   border-radius: 30px 30px 0px 0px;
@@ -118,30 +121,30 @@ header{
   clear: both;
   box-sizing: border-box;
 }
-.section h1{
+.section h1 {
   text-align: center;
 }
-.chat{
-  background-color:rgb(0, 0, 0);
+.chat {
+  background-color: rgb(0, 0, 0);
   border-radius: 40px;
   line-height: 30px;
   width: 70px;
   padding: 10px;
   text-align: center;
   box-sizing: border-box;
-  position:fixed;
+  position: fixed;
   bottom: 10px;
   right: 10px;
 }
-.chat a{
+.chat a {
   text-decoration: none;
   color: white;
 }
-.chat:hover{
+.chat:hover {
   line-height: 35px;
   width: 90px;
 }
-.about{
+.about {
   background-color: #fff;
   color: black;
   border-radius: 30px 30px 0px 0px;
@@ -153,40 +156,46 @@ header{
   clear: both;
   box-sizing: border-box;
 }
-.section h1{
+.section h1 {
   text-align: center;
 }
 
-.join-form{
-  border: 3px solid rgb(210, 210, 210);
-  background-color: rgba(128, 128, 128, 0.175);
+.join-form {
+  border: 1px solid rgb(210, 210, 210);
+  background-color: rgba(128, 128, 128, 0.129);
   color: rgb(210, 210, 210);
   border-radius: 30px;
   padding: 30px;
-  width: 600px;
+  width: 50%;
   margin: 70px auto;
+  backdrop-filter: blur(8px);
+  /* text-align: center; */
 }
-.join-form h1{
+.join-form h1 {
   text-align: center;
 }
-.join-form input{
+/* .join-form label{
+  position: relative;
+  right: 40%;
+} */
+.join-form input {
   /* text-align: center; */
   border: 2px solid rgb(210, 210, 210);
   border-radius: 10px;
   padding: 5px;
-  width:585px  ;
+  width: 90%;
   color: white;
   margin: 10px;
   background-color: transparent;
 }
 
-.join-form #sub{
+.join-form #sub {
   background-color: rgba(128, 128, 128, 0.612);
   border: 4px solid gray;
   border-radius: 20px;
   margin: 20px;
 }
-.contactUs{
+.contactUs {
   background-color: #fff;
   color: black;
   border-radius: 30px 30px 0px 0px;

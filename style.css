@@ -106,7 +106,7 @@ header {
 
 .container {
   background-color: transparent;
-  /* position: relative; */
+  position: relative;
   /* top: 100%; */
   /* border: 2px solid red; */
   height: 1000px;
@@ -115,7 +115,8 @@ header {
 
 .screen {
   font-family: "Anton", sans-serif;
-  /* position: absolute; */
+  position: relative;
+  z-index: -1;
   float: left;
   top: 20px;
   font-size: 100px;
